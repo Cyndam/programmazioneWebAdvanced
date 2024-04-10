@@ -1,0 +1,94 @@
+@import "../../bootstrap-5.3.3/scss/bootstrap.scss";
+
+body {
+    background-color: #FFFEF7;
+    margin-bottom: 250px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #BAAF99 10%, #D5D3C5 60%, #F0ECE6 100%);
+}
+
+.txt-ptn {
+    flex-direction: column;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    margin-left: 7%;
+}
+
+.under-nav {
+    background-image: linear-gradient(to right, #BAAF99 10%, #D5D3C5 60%, #F0ECE6 100%);
+}
+
+.txt-under-nav {
+    text-transform: uppercase;
+}
+
+.txt-sl {
+    @extend .txt-under-nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sl {
+    height: 80px
+}
+
+.img-ptn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid {
+    background-color: transparent;
+
+}
+
+.cont-ptn {
+    background-image: linear-gradient(to right, #BAAF99 10%, #D5D3C5 60%, #F0ECE6 100%);
+}
+
+.txt {
+    margin-bottom: 7%;
+}
+
+.txt-ptn {
+    .row {
+        text-transform: uppercase;
+    }
+}
+
+.btn-group {
+    margin-top: 5%;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .btn {
+        height: 100%;
+        margin-bottom: 2%;
+        background-color: #CBC9B6;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+    }
+}
+
+.footer {
+    background-image: linear-gradient(to right, #BAAF99 10%, #D5D3C5 60%, #F0ECE6 100%);
+}
+
+.footer h5,
+.footer p,
+.footer label,
+.footer input,
+.footer button {
+    color: black !important;
+}
