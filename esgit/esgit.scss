@@ -1,0 +1,80 @@
+@import "../../bootstrap-5.3.3/scss/bootstrap.scss";
+body{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.container-fluid{
+    padding: 0;
+    background-color: black;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    width: 7%;
+}
+.rounded-circle{
+    width:200px;
+    height: 200px;
+    margin-bottom:5%;
+    @media (max-width:768px){
+        width:150px !important;
+        height: 150px !important;
+        margin: 0;
+        width: 50%;
+        height: 50%;
+    }
+}
+.container{
+    margin-top: 5%;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    @media (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.navbar-toggler-icon{
+    border-radius: 20%;
+    background-color: white;
+}
+footer{
+    background-color: black;
+}
+.col-md-4, .col-md-12{
+    color: white;
+}
+li a{
+    color: white;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+footer{
+    margin-top: 150px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+}
+hr{
+    color: white;
+}
+.txt-card, .nav-link{
+    font-weight:400;
+}
+.carousel-caption{
+    position: absolute;
+    top: 5%;
+    @media (max-width:768px) {
+        font-weight:400;
+    }
+}
