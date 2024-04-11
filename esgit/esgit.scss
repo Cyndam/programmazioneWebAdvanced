@@ -45,9 +45,6 @@ body{
     border-radius: 20%;
     background-color: white;
 }
-footer{
-    background-color: black;
-}
 .col-md-4, .col-md-12{
     color: white;
 }
@@ -58,14 +55,15 @@ li a{
     width: 70px;
     height: 70px;
 }
-footer{
+.footer{
     margin-top: 150px;
+    background-color: black;
 }
 .title{
     color: white;
     text-transform: uppercase;
 }
-hr{
+.hr{
     color: white;
 }
 .txt-card, .nav-link{
@@ -77,4 +75,12 @@ hr{
     @media (max-width:768px) {
         font-weight:400;
     }
+}
+
+.cont-btn{
+    width: 100px;
+}
+
+.d-l-mode{
+    width: 100%;
 }

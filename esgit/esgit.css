@@ -12022,10 +12022,6 @@ body {
   background-color: white;
 }
 
-footer {
-  background-color: black;
-}
-
 .col-md-4, .col-md-12 {
   color: white;
 }
@@ -12039,8 +12035,9 @@ li a {
   height: 70px;
 }
 
-footer {
+.footer {
   margin-top: 150px;
+  background-color: black;
 }
 
 .title {
@@ -12048,7 +12045,7 @@ footer {
   text-transform: uppercase;
 }
 
-hr {
+.hr {
   color: white;
 }
 
@@ -12064,4 +12061,12 @@ hr {
   .carousel-caption {
     font-weight: 400;
   }
+}
+
+.cont-btn {
+  width: 100px;
+}
+
+.d-l-mode {
+  width: 100%;
 }/*# sourceMappingURL=esgit.css.map */
